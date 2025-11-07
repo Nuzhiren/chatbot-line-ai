@@ -5,7 +5,7 @@
 > **台灣工程師自學 7 天打造**  
 > **零成本、本地運行、支援 Llama3 離線推理**
 
-![Chaobot 回覆截圖](screenshot.png)
+![Chaobot 回覆截圖](Line chatbot 001.png)
 
 ## 🚀 功能
 - 本地運行 Llama3（無雲端費用）
