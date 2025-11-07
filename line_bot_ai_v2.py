@@ -11,8 +11,8 @@ import threading
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-CHANNEL_ACCESS_TOKEN = "jPdXQZ+8hP5dj89V3fvDpOfB7jRF+CcAs4gQbprxzQAuvew1Fwg/RPzS6+ryoIpHFelapnqe/6Qtfq35vEByBv4GodBRPnGcyaDastMr7wqw/5iGJvkWOc81pvp+NmChhX324gJH1cPIJXooVojuWgdB04t89/1O/w1cDnyilFU="  # 已重新產生
-CHANNEL_SECRET = "c5b8d2d787f4d85ec4c16bbc47a62f68"
+CHANNEL_ACCESS_TOKEN = "你的 Access Token"  # 已重新產生
+CHANNEL_SECRET = "你的 Channel Secret"
 
 app = Flask(__name__)
 
@@ -88,3 +88,4 @@ def handle_message(event):
 if __name__ == "__main__":
     print("AI Line Bot v2 上線！（即時回應 + 防卡死）")
     app.run(host='0.0.0.0', port=5000, debug=False)
+
